@@ -6,12 +6,8 @@ body {
 }
 
 /* LAYOUT */
-.row {
-    margin-top: 1em;
-}
-
 .footer {
-    background: #28934b;;
+    background: #28934b;
     height: 2em;
     position: fixed;
     bottom: 0;
@@ -21,6 +17,9 @@ body {
 .navbar {
     background: tomato;
     height: 3.5em;
+    margin-bottom: 0;
+    border: none;
+    border-radius: 0;
 }
 
 .container-fluid { margin-top: .7em; margin-left: 0.5em; }
@@ -33,6 +32,8 @@ a.navbar-brand { padding: 0.1em;}
 ul.navbar-nav { margin-left: 1em;}
 
 /* INDEX */
+
+.index-row {margin-top: 3em;}
 
 .image-box {
     text-align: right;
@@ -75,6 +76,7 @@ ul.navbar-nav { margin-left: 1em;}
 .hint { text-align: justify; font-size: 0.8em;}
 .hint h3 { color: #38d16d; }
 
+.start-row h1 {font-size: 2.4em; text-align: center; margin-bottom: .5em;}
 input {
     color: #38d16d;
     border: none;
@@ -98,16 +100,39 @@ ol li {
     color:  #38d16d;
 }
 
-/* ABOUT */
+.timer {
+    margin-top: 0;
+    background-color: #b84733;
+    color: tomato;
+}
 
-.about-text h2 { margin-top: 0; color: #38d16d; font-size: 1.9em; }
+.buttons {margin-left: 1em; overflow: hidden;}
+.twenty-five {
+    font-size: 1.4em;
+    cursor: pointer;
+    float: left;
+    width: 2em;
+    text-align: center;
+}
+
+.five {
+    float: left;
+    font-size: 1.4em;
+    color:  #38d16d;
+    background-color: #28934b;
+    cursor: pointer;
+    width: 2em;
+    text-align: center;
+}
+
+/* ABOUT */
+.about-text h2 { margin-top: .8em; color: #38d16d; font-size: 1.9em; }
 .about-text {
     text-align: justify;
     font-size: 0.9em;
-    padding-bottom: 3em;
 }
 
-.h2-in-text {margin-top: 9em;}
+.about-text.last {padding-bottom: 3em;}
 .about-text a { color: #38d16d; }
 
 .image-in-text {

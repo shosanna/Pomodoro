@@ -14,7 +14,7 @@
 <nav class="navbar navbar-default">
     <div class="container-fluid">
         <div class="navbar-header">
-            <a class="navbar-brand" href="#"><h1>Pomodoro Timer</h1></a>
+            <a class="navbar-brand" href="./index.html"><h1>Pomodoro Timer</h1></a>
         </div>
 
         <div class="collapse navbar-collapse">
@@ -26,11 +26,17 @@
         </div>
     </div>
 </nav>
-
+<section class="timer">
+    <div class="buttons">
+        <div class="twenty-five">25</div>
+        <div class="five">5</div>
+    </div>
+</section>
 
 <section class="container">
-    <div class="row">
+    <div class="row start-row">
         <div class="col-md-8">
+            <h1> Start a pomodoro!</h1>
             <article class="tasks">
                 <form>
                     <input class="new-task-text" type="text" placeholder="Type a task and hit enter">
@@ -44,8 +50,11 @@
         <div class="col-md-3 col-md-offset-1">
             <aside class="hint">
                 <h3>Instructions:</h3>
+
                 <p>Select a task which you are going to work on from a list. You can add new tasks any time. </p>
+
                 <p>When you have one task selected, you can start a pomodoro by clicking on a 25 button.</p>
+
                 <p>Don't forget you can't pause it! After work, use a 5 minutes button to take a break.
                 </p>
             </aside>
